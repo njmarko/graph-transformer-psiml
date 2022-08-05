@@ -161,7 +161,7 @@ torch.manual_seed(42)
 # wandb.init(entity = 'njmarko', project = 'gat')
 
 DOWNLOAD_PATH = '/data/mnist'
-BATCH_SIZE_TRAIN = 100
+BATCH_SIZE_TRAIN = 200
 BATCH_SIZE_TEST = 1000
 
 transform_mnist = torchvision.transforms.Compose([torchvision.transforms.ToTensor(),
@@ -272,8 +272,8 @@ for i in range(3):
 
     start_time = time.time()
     model = GraphViT(image_size=32, patch_size=8, num_classes=100, channels=3,
-                     dim=64, depth=6, heads=8, mlp_dim=128)
-    optimizer = optim.Adam(model.parameters(), lr=0.003)
+                     dim=dim[i], depth=6, heads=8, mlp_dim=128)
+    optimizer = optim.Adam(model.parameters(), lr=lr[i])
     model = model.to(device)
 
     # learning rate decay
