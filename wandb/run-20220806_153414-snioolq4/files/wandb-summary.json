@@ -1,0 +1,1 @@
+{"train_loss": 0.2557826340198517, "train_f1_score": 0.94, "_timestamp": 1659794032.587031, "_runtime": 1177.9380118846893, "_step": 22, "test_loss": 100.2900161743164, "test_f1_score": 0.97}
