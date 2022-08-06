@@ -11,7 +11,6 @@ import torch.nn as nn
 import time
 from torch import optim
 import torch.nn.functional as F
-import torch_geometric
 from torch_geometric.nn import GATConv, GATv2Conv
 import torchvision
 from einops import rearrange
@@ -20,10 +19,6 @@ from sklearn import metrics
 import os
 
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
-
-
-# In[51]:
-
 
 class Residual(nn.Module):
     def __init__(self, fn):

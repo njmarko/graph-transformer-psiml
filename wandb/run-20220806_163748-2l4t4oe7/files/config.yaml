@@ -1,0 +1,64 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.13.0
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.9.13
+    start_time: 1659803868.621152
+    t:
+      1:
+      - 1
+      - 5
+      - 41
+      - 53
+      - 55
+      - 77
+      2:
+      - 1
+      - 5
+      - 41
+      - 53
+      - 55
+      - 77
+      3:
+      - 23
+      4: 3.9.13
+      5: 0.13.0
+      8:
+      - 3
+      - 5
+    visualize:
+      confusion_mat:
+        panel_config:
+          fieldSettings:
+            Actual: Actual
+            Predicted: Predicted
+            nPredictions: nPredictions
+          panelDefId: wandb/confusion_matrix/v1
+          stringSettings:
+            title: ''
+          transform:
+            name: tableWithLeafColNames
+          userQuery:
+            queryFields:
+            - args:
+              - name: runSets
+                value: ${runSets}
+              fields:
+              - fields: []
+                name: id
+              - fields: []
+                name: name
+              - fields: []
+                name: _defaultColorIndex
+              - args:
+                - name: tableKey
+                  value: confusion_mat_table
+                fields: []
+                name: summaryTable
+              name: runSets
+        panel_type: Vega2
