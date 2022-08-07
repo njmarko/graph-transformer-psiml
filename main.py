@@ -23,7 +23,7 @@ for database in db:
         projectName = 'CIFAR10'
         train_loader, val_loader, test_loader, parameters = dataLoaderCIFAR10(image_size=32, patch_size=8, num_classes=10,
                                                                              channels=3, dim=128, depth=8, heads=8,
-                                                                             mlp_dim=256, epochs=1)
+                                                                             mlp_dim=256, epochs=20)
         # image_size = 32, patch_size = 8, num_classes = 10,
         # channels = 3, dim = 128, depth = 4, heads = 8,
         # mlp_dim = 1024, epochs = 50
@@ -77,6 +77,7 @@ for database in db:
 
     # Testiranje modela
     path = f'models/cifar10-gat/train-{projectName}-{best_epoch}-acc{best_model_acc}'
+    print(path)
     model.load_state_dict(torch.load(path))
     model = model.to(device)
     evaluate(model, test_loader, test_loss_history)
