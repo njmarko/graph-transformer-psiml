@@ -10,7 +10,7 @@ from train_epoch import *
 from dataLoading import *
 from evaluation import *
 
-db = ['CIFAR10', 'MNIST'] #promeniti na 10
+db = ['CIFAR10']
 for database in db:
     if (database == 'MNIST'):
         projectName = 'MNIST'
@@ -43,15 +43,15 @@ for database in db:
 
 
 
-    wandb.init(entity='njmarko', project='eksperiment')
+    wandb.init(entity='njmarko', project=projectName)
     N_EPOCHS = epochs
 
     start_time = time.time()
     model = GraphViT(image_size, patch_size, num_classes,  dim, depth, heads, mlp_dim, channels)
-    optimizer = optim.Adam(model.parameters(), lr=0.0001)
+    optimizer = optim.AdamW(model.parameters(), lr=0.0001, weight_decay=0.05)
     early_stop_tolerance = 10e-4
     model = model.to(device)
-    scheduler = torch.optim.lr_scheduler.CyclicLR(optimizer, base_lr=0.0001, max_lr=0.001, cycle_momentum=False)
+    scheduler = torch.optim.lr_scheduler.CyclicLR(optimizer, base_lr=0.0001, max_lr=0.001, cycle_momentum=False, step_size_up = 1000)
 
     train_loss_history, val_loss_history, test_loss_history = [], [], []
     best_model_acc = -1
@@ -65,7 +65,7 @@ for database in db:
         if acc > best_model_acc:
             best_model_acc = acc
             best_epoch = epoch
-            torch.save(model.state_dict(), os.path.join('models', f'train-{projectName}-{epoch}-acc{acc}'))
+            torch.save(model.state_dict(), os.path.join('models/cifar10-gat', f'train-{projectName}-{epoch}-acc{acc}'))
 
         if len(train_loss_history) > 2 and np.isclose(train_loss_history[-2], train_loss_history[-1], atol=early_stop_tolerance):
             early_stopping += 1
@@ -76,7 +76,7 @@ for database in db:
             early_stopping = 0
 
     # Testiranje modela
-    path = f'models/train-{projectName}-{best_epoch}-acc{best_model_acc}'
+    path = f'models/cifar10-gat/train-{projectName}-{best_epoch}-acc{best_model_acc}'
     model.load_state_dict(torch.load(path))
     model = model.to(device)
     evaluate(model, test_loader, test_loss_history)
