@@ -25,9 +25,9 @@ def dataLoadingMNIST(image_size, patch_size, num_classes, channels, dim, depth, 
 
 def dataLoaderCIFAR10(image_size, patch_size, num_classes, channels, dim, depth, heads, mlp_dim, epochs):
     DOWNLOAD_PATH = '/data/cifar10'
-    BATCH_SIZE_TRAIN = 64
-    BATCH_SIZE_VAL = 64
-    BATCH_SIZE_TEST = 64
+    BATCH_SIZE_TRAIN = 300
+    BATCH_SIZE_VAL = 300
+    BATCH_SIZE_TEST = 300
 
     mean = [0.4914, 0.4822, 0.4465]
     std = [0.2023, 0.1994, 0.2010]

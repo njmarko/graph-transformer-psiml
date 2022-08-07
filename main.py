@@ -22,8 +22,11 @@ for database in db:
     elif (database == 'CIFAR10'):
         projectName = 'CIFAR10'
         train_loader, val_loader, test_loader, parameters = dataLoaderCIFAR10(image_size=32, patch_size=8, num_classes=10,
-                                                                             channels=3, dim=128, depth=4, heads=8,
-                                                                             mlp_dim=256, epochs=50)
+                                                                             channels=3, dim=128, depth=8, heads=8,
+                                                                             mlp_dim=256, epochs=20)
+        # image_size = 32, patch_size = 8, num_classes = 10,
+        # channels = 3, dim = 128, depth = 4, heads = 8,
+        # mlp_dim = 1024, epochs = 50
         image_size, patch_size, num_classes, channels, dim, depth, heads, mlp_dim, epochs = parameters
         # image_size = 32, patch_size = 4, num_classes = 10,
         # channels = 3, dim = 256, depth = 8, heads = 12,
@@ -40,7 +43,7 @@ for database in db:
 
 
 
-    wandb.init(entity='njmarko', project=projectName)
+    wandb.init(entity='njmarko', project='eksperiment')
     N_EPOCHS = epochs
 
     start_time = time.time()

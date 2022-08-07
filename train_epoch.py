@@ -2,6 +2,7 @@ import torch
 from sklearn import metrics
 import torch.nn.functional as F
 import wandb
+import time
 
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
@@ -10,6 +11,7 @@ def train_epoch(model, optimizer, data_loader, loss_history, scheduler):
     total_samples = len(data_loader.dataset)
     model.train()
     running_loss = 0.0
+    old_time = time.time()
 
     correct_samples = 0
     for i, (data, target) in enumerate(data_loader):
@@ -39,6 +41,7 @@ def train_epoch(model, optimizer, data_loader, loss_history, scheduler):
         f1_score = metrics.f1_score(target, pred, average='micro')
 
         if i % 100 == 0:
+            new_time = time.time()
             print('[' + '{:5}'.format(i * len(data)) + '/' + '{:5}'.format(total_samples) +
                   ' (' + '{:3.0f}'.format(100 * i / len(data_loader)) + '%)]  Loss: ' +
                   '{:6.4f}'.format(loss.item()))
@@ -47,6 +50,8 @@ def train_epoch(model, optimizer, data_loader, loss_history, scheduler):
                 'train_loss': loss.item(),
                 'train_f1_score': f1_score
             })
+            print(f'Execution time: {new_time - old_time}')
+            old_time = time.time()
 
     acc = 100.0 * correct_samples / total_samples
     wandb.log({
