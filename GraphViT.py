@@ -34,6 +34,7 @@ class GraphViT(nn.Module):
         p = self.patch_size
         # print(p)
         # print(img.shape)
+        # print(img.shape)
         x = rearrange(img, 'b c (h p1) (w p2) -> b (h w) (p1 p2 c)', p1=p, p2=p)
         # print(x.shape)
         x = x.to(device)

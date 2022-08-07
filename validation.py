@@ -2,6 +2,7 @@ import torch
 from sklearn import metrics
 import torch.nn.functional as F
 import wandb
+import numpy as np
 
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
@@ -11,6 +12,9 @@ def validate(model, data_loader, loss_history):
     total_samples = len(data_loader.dataset)
     correct_samples = 0
     total_loss = 0
+
+    global_target = np.array([])
+    global_pred = np.array([])
 
     with torch.no_grad():
         for data, target in data_loader:
@@ -25,13 +29,17 @@ def validate(model, data_loader, loss_history):
             total_loss += loss.item()
             correct_samples += pred.eq(target).sum()
 
+            target = target.cpu().detach().numpy()
+            pred = pred.cpu().detach().numpy()
+
+            global_target = np.concatenate((global_target, target))
+            global_pred = np.concatenate((global_pred, pred))
+
     avg_loss = total_loss / total_samples
     acc = 100.0 * correct_samples / total_samples
     loss_history.append(avg_loss)
 
-    target = target.cpu().detach().numpy()
-    pred = pred.cpu().detach().numpy()
-    f1_score = metrics.f1_score(target, pred, average='micro')
+    f1_score = metrics.f1_score(global_target, global_pred, average='micro')
 
     wandb.log({
         'val_loss': loss.item(),
