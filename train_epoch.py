@@ -32,12 +32,6 @@ def train_epoch(model, optimizer, data_loader, loss_history, scheduler):
         target = target.cpu().detach().numpy()
         pred = pred.cpu().detach().numpy()
 
-        #         print(output)
-        #         print('trarget')
-        #         print(target)
-        #         print('pred')
-        #         print(pred)
-
         f1_score = metrics.f1_score(target, pred, average='micro')
 
         if i % 100 == 0:

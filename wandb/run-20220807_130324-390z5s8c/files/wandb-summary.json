@@ -1,1 +1,1 @@
-{"train_loss": 1.6480379104614258, "train_f1_score": 0.39666666666666667, "_timestamp": 1659877652.3002572, "_runtime": 247.56202220916748, "_step": 4, "train_accuracy": 32.14444351196289, "val_loss": 313.1656494140625, "val_f1_score": 0.425, "val_accuracy": 40.18000030517578}
+{"train_loss": 0.25176647305488586, "train_f1_score": 0.9, "_timestamp": 1659882139.277058, "_runtime": 4734.538822889328, "_step": 77, "train_accuracy": 86.1755599975586, "val_loss": 224.5272216796875, "val_f1_score": 0.69, "val_accuracy": 62.65999984741211}
