@@ -1,0 +1,24 @@
+{
+    "os": "Windows-10-10.0.22000-SP0",
+    "python": "3.9.13",
+    "heartbeatAt": "2022-08-06T18:04:13.139485",
+    "startedAt": "2022-08-06T18:04:12.545939",
+    "docker": null,
+    "gpu": "Tesla V100-PCIE-16GB",
+    "gpu_count": 1,
+    "cpu_count": 6,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "C:\\Users\\psiml8\\Desktop\\Projekat\\graph-transformer-psiml\\main.py",
+    "codePath": "main.py",
+    "git": {
+        "remote": "https://github.com/njmarko/graph-transformer-psiml.git",
+        "commit": "74e7ee9cb06d600763664b3f5f0b6e0cb60e6e48"
+    },
+    "email": "marko.njegomir@uns.ac.rs",
+    "root": "C:/Users/psiml8/Desktop/Projekat/graph-transformer-psiml",
+    "host": "lab00000S",
+    "username": "psiml8",
+    "executable": "C:\\Users\\psiml8\\AppData\\Local\\Programs\\Python\\Python39\\python.exe"
+}

@@ -23,14 +23,32 @@ def dataLoadingMNIST(image_size, patch_size, num_classes, channels, dim, depth, 
 
     return train_loader, val_loader, test_loader, parameter
 
-def dataLoaderCIFAR10():
-    pass
+def dataLoaderCIFAR10(image_size, patch_size, num_classes, channels, dim, depth, heads, mlp_dim, epochs):
+    DOWNLOAD_PATH = '/data/cifar10'
+    BATCH_SIZE_TRAIN = 64
+    BATCH_SIZE_VAL = 64
+    BATCH_SIZE_TEST = 64
 
+    mean = [0.4914, 0.4822, 0.4465]
+    std = [0.2023, 0.1994, 0.2010]
+
+    transform_cifar10 = torchvision.transforms.Compose([torchvision.transforms.ToTensor(),
+                                                      torchvision.transforms.transforms.Normalize(mean, std)])
+    train_data = torchvision.datasets.CIFAR10(DOWNLOAD_PATH, train=True, download=True, transform=transform_cifar10)
+    train_set, val_set = torch.utils.data.random_split(train_data, [45000, 5000])
+    train_loader = torch.utils.data.DataLoader(train_set, batch_size=BATCH_SIZE_TRAIN, shuffle=True)
+    val_loader = torch.utils.data.DataLoader(val_set, batch_size=BATCH_SIZE_VAL, shuffle=True)
+    test_set = torchvision.datasets.CIFAR10(DOWNLOAD_PATH, train=False, download=True, transform=transform_cifar10)
+    test_loader = torch.utils.data.DataLoader(test_set, batch_size=BATCH_SIZE_TEST, shuffle=True)
+
+    parameter = [image_size, patch_size, num_classes, channels, dim, depth, heads, mlp_dim, epochs]
+
+    return train_loader, val_loader, test_loader, parameter
 def dataLoaderCIFAR100(image_size, patch_size, num_classes, channels, dim, depth, heads, mlp_dim, epochs):
     DOWNLOAD_PATH = '/data/cifar100'
-    BATCH_SIZE_TRAIN = 50
-    BATCH_SIZE_VAL = 1000
-    BATCH_SIZE_TEST = 1000
+    BATCH_SIZE_TRAIN = 10
+    BATCH_SIZE_VAL = 10
+    BATCH_SIZE_TEST = 10
 
     mean = [0.5071, 0.4867, 0.4408]
     std = [0.2675, 0.2565, 0.2761]
