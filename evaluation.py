@@ -33,17 +33,20 @@ def evaluate(model, data_loader, loss_history):
     pred = pred.cpu().detach().numpy()
     f1_score = metrics.f1_score(target, pred, average='micro')
     precision = metrics.precision_score(target, pred, average='micro')
+    recall = metrics.recall_score(target, pred, average='micro')
 
     wandb.log({
         'test_loss': loss.item(),
         'accuracy': acc,
         'test_f1_score': f1_score,
-        'precision': precision
+        'precision': precision,
+        'recall': recall
     })
     print('\nTest loss: ' + '{:.4f}'.format(avg_loss) +
           '  Accuracy:' + '{:5}'.format(correct_samples) + '/' +
           '{:5}'.format(total_samples) + ' (' +
-          '{:4.2f}'.format(acc) + '%)\n')
+          '{:4.2f}'.format(acc) + '%)  Precision: ' + '{:4.2f}'.format(precision) +
+          '  Recall: ' + '{:4.2f}'.format(recall) + '\n')
 
     cm = metrics.confusion_matrix(target, pred)
     print(f'Confusion matrix:\n {cm}')
