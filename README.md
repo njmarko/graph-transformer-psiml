@@ -10,6 +10,10 @@ Transformer implemented with graph neural network attention layer from Pytorch G
 - Marina Debogović (ETF)
 - Marko Njegomir (FTN)
 
+## Mentors
+- Anđela Donević (Everseen)
+- Nikola Popović (ETH Zurich)
+
 <div align="center">
   <img src="https://user-images.githubusercontent.com/34657562/184306183-802cb780-29ce-4fed-95b6-82023b199354.png">
   <p align="center">Illustration - Transformer with graph attention network (DALLE-2).</p>
