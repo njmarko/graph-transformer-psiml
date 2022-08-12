@@ -5,9 +5,9 @@ def dataLoadingMNIST(image_size, patch_size, num_classes, channels, dim, depth, 
     #torch.manual_seed(42)
 
     DOWNLOAD_PATH = '/data/mnist'
-    BATCH_SIZE_TRAIN = 100
-    BATCH_SIZE_VAL = 1000
-    BATCH_SIZE_TEST = 1000
+    BATCH_SIZE_TRAIN = 250
+    BATCH_SIZE_VAL = 250
+    BATCH_SIZE_TEST = 250
 
     transform_mnist = torchvision.transforms.Compose([torchvision.transforms.ToTensor(),
                                                       torchvision.transforms.Normalize((0.1307,), (0.3081,))])

@@ -1,0 +1,156 @@
+Epoch: 1
+[    0/45000 (  0%)]  Loss: 2.3239
+[25000/45000 ( 56%)]  Loss: 1.8797
+Accuracy: 28.37%
+
+Average test loss: 1.6910  Accuracy: 1914/ 5000 (38.28%)
+
+Epoch: 2
+[    0/45000 (  0%)]  Loss: 1.7054
+[25000/45000 ( 56%)]  Loss: 1.5819
+Accuracy: 44.72%
+
+Average test loss: 1.4129  Accuracy: 2456/ 5000 (49.12%)
+
+Epoch: 3
+[    0/45000 (  0%)]  Loss: 1.3997
+[25000/45000 ( 56%)]  Loss: 1.3765
+Accuracy: 51.39%
+
+Average test loss: 1.3340  Accuracy: 2567/ 5000 (51.34%)
+
+Epoch: 4
+[    0/45000 (  0%)]  Loss: 1.1768
+[25000/45000 ( 56%)]  Loss: 1.1642
+Accuracy: 55.89%
+
+Average test loss: 1.2442  Accuracy: 2724/ 5000 (54.48%)
+
+Epoch: 5
+[    0/45000 (  0%)]  Loss: 1.1575
+[25000/45000 ( 56%)]  Loss: 1.2186
+Accuracy: 59.90%
+
+Average test loss: 1.2024  Accuracy: 2840/ 5000 (56.80%)
+
+Epoch: 6
+[    0/45000 (  0%)]  Loss: 1.0694
+[25000/45000 ( 56%)]  Loss: 0.8980
+Accuracy: 61.92%
+
+Average test loss: 1.1679  Accuracy: 2935/ 5000 (58.70%)
+
+Epoch: 7
+[    0/45000 (  0%)]  Loss: 1.0465
+[25000/45000 ( 56%)]  Loss: 0.9919
+Accuracy: 66.56%
+
+Average test loss: 1.1039  Accuracy: 3087/ 5000 (61.74%)
+
+Epoch: 8
+[    0/45000 (  0%)]  Loss: 0.7242
+[25000/45000 ( 56%)]  Loss: 0.8049
+Accuracy: 71.35%
+
+Average test loss: 1.1034  Accuracy: 3114/ 5000 (62.28%)
+
+Epoch: 9
+[    0/45000 (  0%)]  Loss: 0.5889
+[25000/45000 ( 56%)]  Loss: 0.6928
+Accuracy: 76.46%
+
+Average test loss: 1.1383  Accuracy: 3115/ 5000 (62.30%)
+
+Epoch: 10
+[    0/45000 (  0%)]  Loss: 0.4611
+[25000/45000 ( 56%)]  Loss: 0.4640
+Accuracy: 82.17%
+
+Average test loss: 1.2200  Accuracy: 3146/ 5000 (62.92%)
+
+Epoch: 11
+[    0/45000 (  0%)]  Loss: 0.4446
+[25000/45000 ( 56%)]  Loss: 0.3597
+Accuracy: 87.86%
+
+Average test loss: 1.3108  Accuracy: 3157/ 5000 (63.14%)
+
+Epoch: 12
+[    0/45000 (  0%)]  Loss: 0.2515
+[25000/45000 ( 56%)]  Loss: 0.2917
+Accuracy: 91.47%
+
+Average test loss: 1.4566  Accuracy: 3111/ 5000 (62.22%)
+
+Epoch: 13
+[    0/45000 (  0%)]  Loss: 0.2821
+[25000/45000 ( 56%)]  Loss: 0.2930
+Accuracy: 89.15%
+
+Average test loss: 1.5057  Accuracy: 3027/ 5000 (60.54%)
+
+Epoch: 14
+[    0/45000 (  0%)]  Loss: 0.3016
+[25000/45000 ( 56%)]  Loss: 0.3978
+Accuracy: 87.10%
+
+Average test loss: 1.4902  Accuracy: 3093/ 5000 (61.86%)
+
+Epoch: 15
+[    0/45000 (  0%)]  Loss: 0.3286
+[25000/45000 ( 56%)]  Loss: 0.4160
+Accuracy: 86.74%
+
+Average test loss: 1.5196  Accuracy: 2999/ 5000 (59.98%)
+
+Epoch: 16
+[    0/45000 (  0%)]  Loss: 0.3517
+[25000/45000 ( 56%)]  Loss: 0.3894
+Accuracy: 86.14%
+
+Average test loss: 1.4590  Accuracy: 3014/ 5000 (60.28%)
+
+Epoch: 17
+[    0/45000 (  0%)]  Loss: 0.2535
+[25000/45000 ( 56%)]  Loss: 0.3440
+Accuracy: 86.59%
+
+Average test loss: 1.4832  Accuracy: 3058/ 5000 (61.16%)
+
+Epoch: 18
+[    0/45000 (  0%)]  Loss: 0.2856
+[25000/45000 ( 56%)]  Loss: 0.2955
+Accuracy: 90.42%
+
+Average test loss: 1.6720  Accuracy: 3083/ 5000 (61.66%)
+
+Epoch: 19
+[    0/45000 (  0%)]  Loss: 0.1747
+[25000/45000 ( 56%)]  Loss: 0.1864
+Accuracy: 94.86%
+
+Average test loss: 1.8658  Accuracy: 3100/ 5000 (62.00%)
+
+Epoch: 20
+[    0/45000 (  0%)]  Loss: 0.1089
+[25000/45000 ( 56%)]  Loss: 0.0243
+Accuracy: 98.44%
+
+Average test loss: 2.1293  Accuracy: 3120/ 5000 (62.40%)
+
+CIFAR10-classic/classic_transfromer-CIFAR10-acc63.13999938964844
+
+Test loss: 1.3144  Accuracy: 6267/10000 (62.67%)  Precision: 0.63  Recall: 0.63
+
+Confusion matrix:
+ [[685  31  55  23  16  12  20  17  87  54]
+ [ 29 716   6  18   3   6   3  12  34 173]
+ [ 67  13 507  73 109  74  65  53  14  25]
+ [ 17  14  80 489  46 199  74  35  14  32]
+ [ 30   6 105  74 542  62  65  87  19  10]
+ [ 15   9  58 225  44 524  40  62   9  14]
+ [ 10   9  69  89  53  50 685  18   3  14]
+ [ 27  13  38  77  54  51   9 696   4  31]
+ [ 78  56   9  15  14  13  13   8 730  64]
+ [ 35 140   9  31   6  11   9  22  44 693]]
+Execution time: 343.93 seconds

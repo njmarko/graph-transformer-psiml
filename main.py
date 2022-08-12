@@ -10,20 +10,20 @@ from train_epoch import *
 from dataLoading import *
 from evaluation import *
 
-db = ['CIFAR10']
+db = ['MNIST']
 for database in db:
     if (database == 'MNIST'):
         projectName = 'MNIST'
         train_loader, val_loader, test_loader, parameters = dataLoadingMNIST(image_size=28, patch_size=7, num_classes=10,
                                                                              channels=1, dim=64, depth=6, heads=8,
-                                                                             mlp_dim=128, epochs=20)
+                                                                             mlp_dim=128, epochs=50)
         image_size, patch_size, num_classes, channels, dim, depth, heads, mlp_dim, epochs = parameters
         #default: image_size=32, patch_size=8, num_classes=100, channels=3, dim=64, depth=6, heads=8, mlp_dim=128
     elif (database == 'CIFAR10'):
         projectName = 'CIFAR10'
         train_loader, val_loader, test_loader, parameters = dataLoaderCIFAR10(image_size=32, patch_size=8, num_classes=10,
                                                                              channels=3, dim=128, depth=8, heads=8,
-                                                                             mlp_dim=256, epochs=1)
+                                                                             mlp_dim=256, epochs=20)
         # image_size = 32, patch_size = 8, num_classes = 10,
         # channels = 3, dim = 128, depth = 4, heads = 8,
         # mlp_dim = 1024, epochs = 50
@@ -48,7 +48,8 @@ for database in db:
 
     start_time = time.time()
     model = GraphViT(image_size, patch_size, num_classes,  dim, depth, heads, mlp_dim, channels)
-    optimizer = optim.AdamW(model.parameters(), lr=0.0001, weight_decay=0.05)
+    optimizer = optim.AdamW(model.parameters(), lr=0.0001, weight_decay=0.0025)
+
     early_stop_tolerance = 10e-4
     model = model.to(device)
     scheduler = torch.optim.lr_scheduler.CyclicLR(optimizer, base_lr=0.0001, max_lr=0.001, cycle_momentum=False, step_size_up = 1000)
@@ -65,7 +66,7 @@ for database in db:
         if acc > best_model_acc:
             best_model_acc = acc
             best_epoch = epoch
-            torch.save(model.state_dict(), os.path.join('models/cifar10-gat', f'train-{projectName}-{epoch}-acc{acc}'))
+            torch.save(model.state_dict(), os.path.join('models/MNIST-gat', f'train-{projectName}-{epoch}-acc{acc}'))
 
         if len(train_loss_history) > 2 and np.isclose(train_loss_history[-2], train_loss_history[-1], atol=early_stop_tolerance):
             early_stopping += 1
@@ -76,7 +77,8 @@ for database in db:
             early_stopping = 0
 
     # Testiranje modela
-    path = f'models/cifar10-gat/train-{projectName}-{best_epoch}-acc{best_model_acc}'
+    path = f'models/MNIST-gat/train-{projectName}-{best_epoch}-acc{best_model_acc}'
+    print(path)
     model.load_state_dict(torch.load(path))
     model = model.to(device)
     evaluate(model, test_loader, test_loss_history)

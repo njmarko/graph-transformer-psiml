@@ -1,0 +1,498 @@
+C:\Users\Marko\anaconda3\python.exe C:/Users/Marko/Desktop/PSIML2022/graph-transformer-psiml/main.py
+wandb: Currently logged in as: njmarko. Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.13.1
+wandb: Run data is saved locally in C:\Users\Marko\Desktop\PSIML2022\graph-transformer-psiml\wandb\run-20220808_022452-pp98c6v4
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run crisp-yogurt-1
+wandb:  View project at https://wandb.ai/njmarko/MNIST
+wandb:  View run at https://wandb.ai/njmarko/MNIST/runs/pp98c6v4
+Epoch: 1
+[    0/50000 (  0%)]  Loss: 2.3753
+Execution time: 4.225025415420532
+[25000/50000 ( 50%)]  Loss: 0.9496
+Execution time: 107.98920750617981
+Accuracy: 62.34%
+
+Average validation loss: 0.3280  Accuracy: 8998/10000 (89.98%)
+
+Epoch: 2
+[    0/50000 (  0%)]  Loss: 0.3133
+Execution time: 1.3070425987243652
+[25000/50000 ( 50%)]  Loss: 0.2864
+Execution time: 119.99837470054626
+Accuracy: 92.10%
+
+Average validation loss: 0.2250  Accuracy: 9312/10000 (93.12%)
+
+Epoch: 3
+[    0/50000 (  0%)]  Loss: 0.1972
+Execution time: 1.1412122249603271
+[25000/50000 ( 50%)]  Loss: 0.2174
+Execution time: 106.35244297981262
+Accuracy: 94.50%
+
+Average validation loss: 0.1433  Accuracy: 9567/10000 (95.67%)
+
+Epoch: 4
+[    0/50000 (  0%)]  Loss: 0.1702
+Execution time: 1.1261963844299316
+[25000/50000 ( 50%)]  Loss: 0.2600
+Execution time: 110.64022064208984
+Accuracy: 95.62%
+
+Average validation loss: 0.1315  Accuracy: 9606/10000 (96.06%)
+
+Epoch: 5
+[    0/50000 (  0%)]  Loss: 0.1531
+Execution time: 1.1753606796264648
+[25000/50000 ( 50%)]  Loss: 0.2116
+Execution time: 106.17156934738159
+Accuracy: 96.27%
+
+Average validation loss: 0.1302  Accuracy: 9582/10000 (95.82%)
+
+Epoch: 6
+[    0/50000 (  0%)]  Loss: 0.1679
+Execution time: 1.121169090270996
+[25000/50000 ( 50%)]  Loss: 0.1241
+Execution time: 106.16841983795166
+Accuracy: 96.82%
+
+Average validation loss: 0.1009  Accuracy: 9702/10000 (97.02%)
+
+Epoch: 7
+[    0/50000 (  0%)]  Loss: 0.0462
+Execution time: 1.178670883178711
+[25000/50000 ( 50%)]  Loss: 0.0663
+Execution time: 106.10663628578186
+Accuracy: 97.72%
+
+Average validation loss: 0.0836  Accuracy: 9751/10000 (97.51%)
+
+Epoch: 8
+[    0/50000 (  0%)]  Loss: 0.0235
+Execution time: 1.1560416221618652
+[25000/50000 ( 50%)]  Loss: 0.0617
+Execution time: 105.86152267456055
+Accuracy: 98.24%
+
+Average validation loss: 0.0855  Accuracy: 9757/10000 (97.57%)
+
+Epoch: 9
+[    0/50000 (  0%)]  Loss: 0.0642
+Execution time: 1.1696171760559082
+[25000/50000 ( 50%)]  Loss: 0.0264
+Execution time: 106.55971670150757
+Accuracy: 98.66%
+
+Average validation loss: 0.0709  Accuracy: 9801/10000 (98.01%)
+
+Epoch: 10
+[    0/50000 (  0%)]  Loss: 0.0445
+Execution time: 1.1109998226165771
+[25000/50000 ( 50%)]  Loss: 0.0161
+Execution time: 105.75596165657043
+Accuracy: 99.17%
+
+Average validation loss: 0.0662  Accuracy: 9829/10000 (98.29%)
+
+Epoch: 11
+[    0/50000 (  0%)]  Loss: 0.0074
+Execution time: 1.120924472808838
+[25000/50000 ( 50%)]  Loss: 0.0138
+Execution time: 106.46969032287598
+Accuracy: 99.20%
+
+Average validation loss: 0.0749  Accuracy: 9807/10000 (98.07%)
+
+Epoch: 12
+[    0/50000 (  0%)]  Loss: 0.0343
+Execution time: 1.2850394248962402
+[25000/50000 ( 50%)]  Loss: 0.0232
+Execution time: 106.1396918296814
+Accuracy: 98.83%
+
+Average validation loss: 0.0843  Accuracy: 9771/10000 (97.71%)
+
+Epoch: 13
+[    0/50000 (  0%)]  Loss: 0.0194
+Execution time: 1.17995285987854
+[25000/50000 ( 50%)]  Loss: 0.0547
+Execution time: 106.7394151687622
+Accuracy: 98.23%
+
+Average validation loss: 0.0879  Accuracy: 9734/10000 (97.34%)
+
+Epoch: 14
+[    0/50000 (  0%)]  Loss: 0.0622
+Execution time: 1.0866062641143799
+[25000/50000 ( 50%)]  Loss: 0.0326
+Execution time: 105.96093511581421
+Accuracy: 98.17%
+
+Average validation loss: 0.1065  Accuracy: 9703/10000 (97.03%)
+
+Epoch: 15
+[    0/50000 (  0%)]  Loss: 0.0628
+Execution time: 1.115727424621582
+[25000/50000 ( 50%)]  Loss: 0.0862
+Execution time: 105.45809078216553
+Accuracy: 97.94%
+
+Average validation loss: 0.1036  Accuracy: 9696/10000 (96.96%)
+
+Epoch: 16
+[    0/50000 (  0%)]  Loss: 0.0609
+Execution time: 1.2929949760437012
+[25000/50000 ( 50%)]  Loss: 0.0510
+Execution time: 133.53248929977417
+Accuracy: 98.24%
+
+Average validation loss: 0.0955  Accuracy: 9741/10000 (97.41%)
+
+Epoch: 17
+[    0/50000 (  0%)]  Loss: 0.0433
+Execution time: 1.2101540565490723
+[25000/50000 ( 50%)]  Loss: 0.0334
+Execution time: 105.49013686180115
+Accuracy: 98.68%
+
+Average validation loss: 0.0771  Accuracy: 9796/10000 (97.96%)
+
+Epoch: 18
+[    0/50000 (  0%)]  Loss: 0.0396
+Execution time: 1.1893651485443115
+[25000/50000 ( 50%)]  Loss: 0.0431
+Execution time: 109.78957676887512
+Accuracy: 99.24%
+
+Average validation loss: 0.0640  Accuracy: 9836/10000 (98.36%)
+
+Epoch: 19
+[    0/50000 (  0%)]  Loss: 0.0136
+Execution time: 1.1782257556915283
+[25000/50000 ( 50%)]  Loss: 0.0127
+Execution time: 105.99137473106384
+Accuracy: 99.54%
+
+Average validation loss: 0.0670  Accuracy: 9841/10000 (98.41%)
+
+Epoch: 20
+[    0/50000 (  0%)]  Loss: 0.0061
+Execution time: 1.1189544200897217
+[25000/50000 ( 50%)]  Loss: 0.0017
+Execution time: 105.99375343322754
+Accuracy: 99.80%
+
+Average validation loss: 0.0631  Accuracy: 9851/10000 (98.51%)
+
+Epoch: 21
+[    0/50000 (  0%)]  Loss: 0.0027
+Execution time: 1.1629595756530762
+[25000/50000 ( 50%)]  Loss: 0.0050
+Execution time: 106.12245202064514
+Accuracy: 99.84%
+
+Average validation loss: 0.0661  Accuracy: 9852/10000 (98.52%)
+
+Epoch: 22
+[    0/50000 (  0%)]  Loss: 0.0025
+Execution time: 1.1716349124908447
+[25000/50000 ( 50%)]  Loss: 0.0017
+Execution time: 105.9075813293457
+Accuracy: 99.58%
+
+Average validation loss: 0.0804  Accuracy: 9812/10000 (98.12%)
+
+Epoch: 23
+[    0/50000 (  0%)]  Loss: 0.0470
+Execution time: 1.128035068511963
+[25000/50000 ( 50%)]  Loss: 0.0368
+Execution time: 106.07592582702637
+Accuracy: 98.88%
+
+Average validation loss: 0.1218  Accuracy: 9695/10000 (96.95%)
+
+Epoch: 24
+[    0/50000 (  0%)]  Loss: 0.0794
+Execution time: 1.124781847000122
+[25000/50000 ( 50%)]  Loss: 0.0647
+Execution time: 106.00075149536133
+Accuracy: 98.51%
+
+Average validation loss: 0.1011  Accuracy: 9729/10000 (97.29%)
+
+Epoch: 25
+[    0/50000 (  0%)]  Loss: 0.0429
+Execution time: 1.218245267868042
+[25000/50000 ( 50%)]  Loss: 0.0274
+Execution time: 105.89058256149292
+Accuracy: 98.54%
+
+Average validation loss: 0.0960  Accuracy: 9759/10000 (97.59%)
+
+Epoch: 26
+[    0/50000 (  0%)]  Loss: 0.0774
+Execution time: 1.147000789642334
+[25000/50000 ( 50%)]  Loss: 0.0563
+Execution time: 105.52384305000305
+Accuracy: 98.56%
+
+Average validation loss: 0.0844  Accuracy: 9762/10000 (97.62%)
+
+Epoch: 27
+[    0/50000 (  0%)]  Loss: 0.0031
+Execution time: 1.1189544200897217
+[25000/50000 ( 50%)]  Loss: 0.0397
+Execution time: 106.5278263092041
+Accuracy: 99.29%
+
+Average validation loss: 0.0759  Accuracy: 9817/10000 (98.17%)
+
+Epoch: 28
+[    0/50000 (  0%)]  Loss: 0.0019
+Execution time: 1.1811494827270508
+[25000/50000 ( 50%)]  Loss: 0.0347
+Execution time: 105.52149319648743
+Accuracy: 99.51%
+
+Average validation loss: 0.0650  Accuracy: 9860/10000 (98.60%)
+
+Epoch: 29
+[    0/50000 (  0%)]  Loss: 0.0259
+Execution time: 1.0980074405670166
+[25000/50000 ( 50%)]  Loss: 0.0157
+Execution time: 105.85231065750122
+Accuracy: 99.80%
+
+Average validation loss: 0.0609  Accuracy: 9873/10000 (98.73%)
+
+Epoch: 30
+[    0/50000 (  0%)]  Loss: 0.0287
+Execution time: 1.1186399459838867
+[25000/50000 ( 50%)]  Loss: 0.0089
+Execution time: 110.23469090461731
+Accuracy: 99.91%
+
+Average validation loss: 0.0632  Accuracy: 9878/10000 (98.78%)
+
+Epoch: 31
+[    0/50000 (  0%)]  Loss: 0.0035
+Execution time: 1.1879081726074219
+[25000/50000 ( 50%)]  Loss: 0.0016
+Execution time: 106.32115960121155
+Accuracy: 99.95%
+
+Average validation loss: 0.0641  Accuracy: 9865/10000 (98.65%)
+
+Epoch: 32
+[    0/50000 (  0%)]  Loss: 0.0007
+Execution time: 1.1090083122253418
+[25000/50000 ( 50%)]  Loss: 0.0005
+Execution time: 106.60549187660217
+Accuracy: 99.91%
+
+Average validation loss: 0.0773  Accuracy: 9836/10000 (98.36%)
+
+Epoch: 33
+[    0/50000 (  0%)]  Loss: 0.0165
+Execution time: 1.187152624130249
+[25000/50000 ( 50%)]  Loss: 0.0281
+Execution time: 106.91513681411743
+Accuracy: 99.13%
+
+Average validation loss: 0.0911  Accuracy: 9776/10000 (97.76%)
+
+Epoch: 34
+[    0/50000 (  0%)]  Loss: 0.0286
+Execution time: 1.0720467567443848
+[25000/50000 ( 50%)]  Loss: 0.0130
+Execution time: 106.26481056213379
+Accuracy: 98.88%
+
+Average validation loss: 0.0883  Accuracy: 9776/10000 (97.76%)
+
+Epoch: 35
+[    0/50000 (  0%)]  Loss: 0.0125
+Execution time: 1.1035544872283936
+[25000/50000 ( 50%)]  Loss: 0.0501
+Execution time: 105.97989130020142
+Accuracy: 98.60%
+
+Average validation loss: 0.1036  Accuracy: 9724/10000 (97.24%)
+
+Epoch: 36
+[    0/50000 (  0%)]  Loss: 0.0602
+Execution time: 1.157832384109497
+[25000/50000 ( 50%)]  Loss: 0.0195
+Execution time: 106.54508709907532
+Accuracy: 98.86%
+
+Average validation loss: 0.0760  Accuracy: 9824/10000 (98.24%)
+
+Epoch: 37
+[    0/50000 (  0%)]  Loss: 0.0285
+Execution time: 1.1124558448791504
+[25000/50000 ( 50%)]  Loss: 0.0137
+Execution time: 106.50986933708191
+Accuracy: 99.39%
+
+Average validation loss: 0.0838  Accuracy: 9809/10000 (98.09%)
+
+Epoch: 38
+[    0/50000 (  0%)]  Loss: 0.0300
+Execution time: 1.1400096416473389
+[25000/50000 ( 50%)]  Loss: 0.0049
+Execution time: 106.10755467414856
+Accuracy: 99.60%
+
+Average validation loss: 0.0729  Accuracy: 9847/10000 (98.47%)
+
+Epoch: 39
+[    0/50000 (  0%)]  Loss: 0.0004
+Execution time: 1.1086740493774414
+[25000/50000 ( 50%)]  Loss: 0.0013
+Execution time: 107.03735303878784
+Accuracy: 99.85%
+
+Average validation loss: 0.0665  Accuracy: 9862/10000 (98.62%)
+
+Epoch: 40
+[    0/50000 (  0%)]  Loss: 0.0010
+Execution time: 1.1129989624023438
+[25000/50000 ( 50%)]  Loss: 0.0035
+Execution time: 106.19556021690369
+Accuracy: 99.92%
+
+Average validation loss: 0.0656  Accuracy: 9864/10000 (98.64%)
+
+Epoch: 41
+[    0/50000 (  0%)]  Loss: 0.0001
+Execution time: 1.107642412185669
+[25000/50000 ( 50%)]  Loss: 0.0006
+Execution time: 106.08087611198425
+Accuracy: 99.95%
+
+Average validation loss: 0.0666  Accuracy: 9866/10000 (98.66%)
+
+Epoch: 42
+[    0/50000 (  0%)]  Loss: 0.0003
+Execution time: 1.1359994411468506
+[25000/50000 ( 50%)]  Loss: 0.0044
+Execution time: 106.22545123100281
+Accuracy: 99.93%
+
+Average validation loss: 0.0770  Accuracy: 9852/10000 (98.52%)
+
+Epoch: 43
+[    0/50000 (  0%)]  Loss: 0.0225
+Execution time: 1.0939967632293701
+[25000/50000 ( 50%)]  Loss: 0.0041
+Execution time: 106.1336658000946
+Accuracy: 99.42%
+
+Average validation loss: 0.0984  Accuracy: 9795/10000 (97.95%)
+
+Epoch: 44
+[    0/50000 (  0%)]  Loss: 0.0215
+Execution time: 1.1483302116394043
+[25000/50000 ( 50%)]  Loss: 0.0046
+Execution time: 107.61529183387756
+Accuracy: 99.07%
+
+Average validation loss: 0.0902  Accuracy: 9795/10000 (97.95%)
+
+Epoch: 45
+[    0/50000 (  0%)]  Loss: 0.0272
+Execution time: 1.1599979400634766
+[25000/50000 ( 50%)]  Loss: 0.0061
+Execution time: 106.82790994644165
+Accuracy: 98.89%
+
+Average validation loss: 0.0926  Accuracy: 9785/10000 (97.85%)
+
+Epoch: 46
+[    0/50000 (  0%)]  Loss: 0.0339
+Execution time: 1.1077518463134766
+[25000/50000 ( 50%)]  Loss: 0.0255
+Execution time: 109.9880599975586
+Accuracy: 98.96%
+
+Average validation loss: 0.0907  Accuracy: 9783/10000 (97.83%)
+
+Epoch: 47
+[    0/50000 (  0%)]  Loss: 0.0416
+Execution time: 1.131248950958252
+[25000/50000 ( 50%)]  Loss: 0.0111
+Execution time: 105.91382622718811
+Accuracy: 99.43%
+
+Average validation loss: 0.0670  Accuracy: 9852/10000 (98.52%)
+
+Epoch: 48
+[    0/50000 (  0%)]  Loss: 0.0022
+Execution time: 1.1659996509552002
+[25000/50000 ( 50%)]  Loss: 0.0150
+Execution time: 106.64353156089783
+Accuracy: 99.78%
+
+Average validation loss: 0.0702  Accuracy: 9853/10000 (98.53%)
+
+Epoch: 49
+[    0/50000 (  0%)]  Loss: 0.0077
+Execution time: 1.1149213314056396
+[25000/50000 ( 50%)]  Loss: 0.0005
+Execution time: 106.27554154396057
+Accuracy: 99.91%
+
+Average validation loss: 0.0707  Accuracy: 9870/10000 (98.70%)
+
+Epoch: 50
+[    0/50000 (  0%)]  Loss: 0.0006
+Execution time: 1.1358489990234375
+[25000/50000 ( 50%)]  Loss: 0.0011
+Execution time: 106.13030409812927
+Accuracy: 99.94%
+
+Average validation loss: 0.0694  Accuracy: 9875/10000 (98.75%)
+
+models/MNIST-gat/train-MNIST-30-acc98.77999877929688
+
+Test loss: 0.0535  Accuracy: 9872/10000 (98.72%)  Precision: 0.99  Recall: 0.99
+
+Confusion matrix:
+ [[ 975    1    1    0    0    0    1    1    1    0]
+ [   0 1132    1    0    0    0    1    1    0    0]
+ [   2    0 1021    1    2    0    0    4    2    0]
+ [   0    0    2  994    0    5    0    4    2    3]
+ [   2    0    0    0  968    0    4    1    1    6]
+ [   1    0    0   10    0  873    3    1    2    2]
+ [   6    2    2    1    4    0  942    0    1    0]
+ [   0    3    7    1    0    0    0 1013    1    3]
+ [   2    0    2    1    1    2    1    1  961    3]
+ [   2    2    0    3    5    1    0    3    0  993]]
+Execution time: 12747.21 seconds
+wandb: Waiting for W&B process to finish... (success).
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb: train_accuracy ▁▇▇▇▇███████████████████████████████████
+wandb: train_f1_score ▁▇▇▇████████████████████████████████████
+wandb:     train_loss █▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:   val_accuracy ▁▄▆▆▇▇▇▇▇▇▇▇▇▇███▇▇▇▇█████▇▇█▇████▇▇▇███
+wandb:   val_f1_score ▁▄▆▆▇▇▇▇▇▇▇▇▇▇███▇▇▇▇█████▇▇█▇████▇▇▇███
+wandb:       val_loss █▇▅▃▄▃▂▃▃▂▃▃▂▁▃▂▂▂▃▂▂▁▃▁▅▃▂▃▁▃▃▂▃▂▂▄▃▃▂▂
+wandb: 
+wandb: Run summary:
+wandb: train_accuracy 99.94199
+wandb: train_f1_score 1.0
+wandb:     train_loss 0.00114
+wandb:   val_accuracy 98.75
+wandb:   val_f1_score 0.9875
+wandb:       val_loss 11.80244
+wandb: 
+wandb: Synced crisp-yogurt-1: https://wandb.ai/njmarko/MNIST/runs/pp98c6v4
+wandb: Synced 6 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: .\wandb\run-20220808_022452-pp98c6v4\logs
+
+Process finished with exit code 0

@@ -1,0 +1,156 @@
+Epoch: 1
+[    0/50000 (  0%)]  Loss: 2.3599
+[25000/50000 ( 50%)]  Loss: 1.6962
+Accuracy: 38.81%
+
+Average test loss: 0.9864  Accuracy: 6800/10000 (68.00%)
+
+Epoch: 2
+[    0/50000 (  0%)]  Loss: 0.9526
+[25000/50000 ( 50%)]  Loss: 0.4825
+Accuracy: 83.84%
+
+Average test loss: 0.2751  Accuracy: 9150/10000 (91.50%)
+
+Epoch: 3
+[    0/50000 (  0%)]  Loss: 0.2719
+[25000/50000 ( 50%)]  Loss: 0.2227
+Accuracy: 93.46%
+
+Average test loss: 0.1674  Accuracy: 9489/10000 (94.89%)
+
+Epoch: 4
+[    0/50000 (  0%)]  Loss: 0.1895
+[25000/50000 ( 50%)]  Loss: 0.1421
+Accuracy: 95.35%
+
+Average test loss: 0.1323  Accuracy: 9586/10000 (95.86%)
+
+Epoch: 5
+[    0/50000 (  0%)]  Loss: 0.0783
+[25000/50000 ( 50%)]  Loss: 0.1060
+Accuracy: 96.42%
+
+Average test loss: 0.1154  Accuracy: 9635/10000 (96.35%)
+
+Epoch: 6
+[    0/50000 (  0%)]  Loss: 0.0882
+[25000/50000 ( 50%)]  Loss: 0.1062
+Accuracy: 97.09%
+
+Average test loss: 0.0988  Accuracy: 9683/10000 (96.83%)
+
+Epoch: 7
+[    0/50000 (  0%)]  Loss: 0.0960
+[25000/50000 ( 50%)]  Loss: 0.1192
+Accuracy: 97.86%
+
+Average test loss: 0.0829  Accuracy: 9750/10000 (97.50%)
+
+Epoch: 8
+[    0/50000 (  0%)]  Loss: 0.0588
+[25000/50000 ( 50%)]  Loss: 0.0823
+Accuracy: 98.31%
+
+Average test loss: 0.0751  Accuracy: 9747/10000 (97.47%)
+
+Epoch: 9
+[    0/50000 (  0%)]  Loss: 0.0276
+[25000/50000 ( 50%)]  Loss: 0.0474
+Accuracy: 98.78%
+
+Average test loss: 0.0675  Accuracy: 9799/10000 (97.99%)
+
+Epoch: 10
+[    0/50000 (  0%)]  Loss: 0.0263
+[25000/50000 ( 50%)]  Loss: 0.0262
+Accuracy: 99.14%
+
+Average test loss: 0.0671  Accuracy: 9797/10000 (97.97%)
+
+Epoch: 11
+[    0/50000 (  0%)]  Loss: 0.0573
+[25000/50000 ( 50%)]  Loss: 0.0468
+Accuracy: 99.29%
+
+Average test loss: 0.0734  Accuracy: 9792/10000 (97.92%)
+
+Epoch: 12
+[    0/50000 (  0%)]  Loss: 0.0949
+[25000/50000 ( 50%)]  Loss: 0.0580
+Accuracy: 98.98%
+
+Average test loss: 0.0865  Accuracy: 9749/10000 (97.49%)
+
+Epoch: 13
+[    0/50000 (  0%)]  Loss: 0.0498
+[25000/50000 ( 50%)]  Loss: 0.0416
+Accuracy: 98.66%
+
+Average test loss: 0.1003  Accuracy: 9709/10000 (97.09%)
+
+Epoch: 14
+[    0/50000 (  0%)]  Loss: 0.0253
+[25000/50000 ( 50%)]  Loss: 0.1144
+Accuracy: 98.18%
+
+Average test loss: 0.1046  Accuracy: 9707/10000 (97.07%)
+
+Epoch: 15
+[    0/50000 (  0%)]  Loss: 0.0280
+[25000/50000 ( 50%)]  Loss: 0.0292
+Accuracy: 98.35%
+
+Average test loss: 0.0888  Accuracy: 9748/10000 (97.48%)
+
+Epoch: 16
+[    0/50000 (  0%)]  Loss: 0.0279
+[25000/50000 ( 50%)]  Loss: 0.0276
+Accuracy: 98.72%
+
+Average test loss: 0.0765  Accuracy: 9775/10000 (97.75%)
+
+Epoch: 17
+[    0/50000 (  0%)]  Loss: 0.0203
+[25000/50000 ( 50%)]  Loss: 0.0301
+Accuracy: 99.22%
+
+Average test loss: 0.0849  Accuracy: 9772/10000 (97.72%)
+
+Epoch: 18
+[    0/50000 (  0%)]  Loss: 0.0081
+[25000/50000 ( 50%)]  Loss: 0.0334
+Accuracy: 99.46%
+
+Average test loss: 0.0746  Accuracy: 9801/10000 (98.01%)
+
+Epoch: 19
+[    0/50000 (  0%)]  Loss: 0.0164
+[25000/50000 ( 50%)]  Loss: 0.0044
+Accuracy: 99.77%
+
+Average test loss: 0.0686  Accuracy: 9821/10000 (98.21%)
+
+Epoch: 20
+[    0/50000 (  0%)]  Loss: 0.0018
+[25000/50000 ( 50%)]  Loss: 0.0055
+Accuracy: 99.90%
+
+Average test loss: 0.0659  Accuracy: 9831/10000 (98.31%)
+
+MNIST-classic/classic_transfromer-MNIST-acc98.30999755859375
+
+Test loss: 0.0568  Accuracy: 9842/10000 (98.31%)  Precision: 0.98  Recall: 0.98
+
+Confusion matrix:
+ [[ 973    1    1    0    0    2    1    1    0    1]
+ [   0 1132    1    0    0    0    0    1    1    0]
+ [   3    1 1012    3    3    2    2    3    3    0]
+ [   0    0    4  996    0    3    0    2    4    1]
+ [   0    0    1    0  969    0    3    1    1    7]
+ [   1    0    0   10    0  868    5    1    5    2]
+ [   3    3    0    1    1    5  942    0    3    0]
+ [   2    2    9    2    0    0    0 1006    2    5]
+ [   3    2    3    2    0    3    0    2  958    1]
+ [   2    2    0    4    6    4    0    4    1  986]]
+Execution time: 1498.50 seconds

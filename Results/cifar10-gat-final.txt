@@ -1,0 +1,196 @@
+Epoch: 1
+[    0/45000 (  0%)]  Loss: 2.3963
+Execution time: 4.940727710723877
+[25000/45000 ( 56%)]  Loss: 1.7467
+Execution time: 132.3107988834381
+Accuracy: 33.78%
+
+Average validation loss: 1.5762  Accuracy: 2131/ 5000 (42.62%)
+
+Epoch: 2
+[    0/45000 (  0%)]  Loss: 1.5246
+Execution time: 1.3405563831329346
+[25000/45000 ( 56%)]  Loss: 1.4201
+Execution time: 132.4272198677063
+Accuracy: 46.95%
+
+Average validation loss: 1.4240  Accuracy: 2370/ 5000 (47.40%)
+
+Epoch: 3
+[    0/45000 (  0%)]  Loss: 1.3066
+Execution time: 1.3506884574890137
+[25000/45000 ( 56%)]  Loss: 1.3270
+Execution time: 133.0716667175293
+Accuracy: 52.08%
+
+Average validation loss: 1.3198  Accuracy: 2585/ 5000 (51.70%)
+
+Epoch: 4
+[    0/45000 (  0%)]  Loss: 1.2319
+Execution time: 1.3134841918945312
+[25000/45000 ( 56%)]  Loss: 1.1906
+Execution time: 130.8349587917328
+Accuracy: 55.78%
+
+Average validation loss: 1.2752  Accuracy: 2728/ 5000 (54.56%)
+
+Epoch: 5
+[    0/45000 (  0%)]  Loss: 1.1769
+Execution time: 1.3151593208312988
+[25000/45000 ( 56%)]  Loss: 1.0249
+Execution time: 130.51642894744873
+Accuracy: 58.58%
+
+Average validation loss: 1.2253  Accuracy: 2829/ 5000 (56.58%)
+
+Epoch: 6
+[    0/45000 (  0%)]  Loss: 1.0509
+Execution time: 1.3151652812957764
+[25000/45000 ( 56%)]  Loss: 1.1344
+Execution time: 130.4240562915802
+Accuracy: 59.41%
+
+Average validation loss: 1.2151  Accuracy: 2875/ 5000 (57.50%)
+
+Epoch: 7
+[    0/45000 (  0%)]  Loss: 1.1451
+Execution time: 1.317183494567871
+[25000/45000 ( 56%)]  Loss: 0.9272
+Execution time: 130.6610391139984
+Accuracy: 63.68%
+
+Average validation loss: 1.1541  Accuracy: 2984/ 5000 (59.68%)
+
+Epoch: 8
+[    0/45000 (  0%)]  Loss: 0.9900
+Execution time: 1.3167369365692139
+[25000/45000 ( 56%)]  Loss: 0.9533
+Execution time: 130.8382213115692
+Accuracy: 67.84%
+
+Average validation loss: 1.0855  Accuracy: 3079/ 5000 (61.58%)
+
+Epoch: 9
+[    0/45000 (  0%)]  Loss: 0.6826
+Execution time: 1.314838171005249
+[25000/45000 ( 56%)]  Loss: 0.8830
+Execution time: 130.20199370384216
+Accuracy: 71.74%
+
+Average validation loss: 1.0880  Accuracy: 3133/ 5000 (62.66%)
+
+Epoch: 10
+[    0/45000 (  0%)]  Loss: 0.6576
+Execution time: 1.2986791133880615
+[25000/45000 ( 56%)]  Loss: 0.7162
+Execution time: 130.95049738883972
+Accuracy: 76.09%
+
+Average validation loss: 1.0819  Accuracy: 3191/ 5000 (63.82%)
+
+Epoch: 11
+[    0/45000 (  0%)]  Loss: 0.5218
+Execution time: 1.3142545223236084
+[25000/45000 ( 56%)]  Loss: 0.5978
+Execution time: 130.39306616783142
+Accuracy: 81.09%
+
+Average validation loss: 1.1201  Accuracy: 3205/ 5000 (64.10%)
+
+Epoch: 12
+[    0/45000 (  0%)]  Loss: 0.5083
+Execution time: 1.3133368492126465
+[25000/45000 ( 56%)]  Loss: 0.4191
+Execution time: 131.10092782974243
+Accuracy: 83.73%
+
+Average validation loss: 1.1466  Accuracy: 3196/ 5000 (63.92%)
+
+Epoch: 13
+[    0/45000 (  0%)]  Loss: 0.4279
+Execution time: 1.329495906829834
+[25000/45000 ( 56%)]  Loss: 0.6218
+Execution time: 130.4048206806183
+Accuracy: 81.74%
+
+Average validation loss: 1.1783  Accuracy: 3166/ 5000 (63.32%)
+
+Epoch: 14
+[    0/45000 (  0%)]  Loss: 0.5574
+Execution time: 1.2989931106567383
+[25000/45000 ( 56%)]  Loss: 0.5979
+Execution time: 130.2833960056305
+Accuracy: 79.28%
+
+Average validation loss: 1.2178  Accuracy: 3065/ 5000 (61.30%)
+
+Epoch: 15
+[    0/45000 (  0%)]  Loss: 0.5800
+Execution time: 1.3142611980438232
+[25000/45000 ( 56%)]  Loss: 0.7165
+Execution time: 130.23228859901428
+Accuracy: 77.68%
+
+Average validation loss: 1.2514  Accuracy: 3047/ 5000 (60.94%)
+
+Epoch: 16
+[    0/45000 (  0%)]  Loss: 0.5402
+Execution time: 1.3289101123809814
+[25000/45000 ( 56%)]  Loss: 0.6999
+Execution time: 130.34844613075256
+Accuracy: 75.75%
+
+Average validation loss: 1.2471  Accuracy: 3042/ 5000 (60.84%)
+
+Epoch: 17
+[    0/45000 (  0%)]  Loss: 0.6102
+Execution time: 1.2981505393981934
+[25000/45000 ( 56%)]  Loss: 0.6501
+Execution time: 129.88477659225464
+Accuracy: 75.84%
+
+Average validation loss: 1.2541  Accuracy: 2996/ 5000 (59.92%)
+
+Epoch: 18
+[    0/45000 (  0%)]  Loss: 0.5789
+Execution time: 1.3142902851104736
+[25000/45000 ( 56%)]  Loss: 0.6251
+Execution time: 132.34616446495056
+Accuracy: 78.16%
+
+Average validation loss: 1.2668  Accuracy: 3052/ 5000 (61.04%)
+
+Epoch: 19
+[    0/45000 (  0%)]  Loss: 0.4300
+Execution time: 1.357682228088379
+[25000/45000 ( 56%)]  Loss: 0.3940
+Execution time: 131.92010188102722
+Accuracy: 83.55%
+
+Average validation loss: 1.2896  Accuracy: 3120/ 5000 (62.40%)
+
+Epoch: 20
+[    0/45000 (  0%)]  Loss: 0.3277
+Execution time: 1.315622329711914
+[25000/45000 ( 56%)]  Loss: 0.2997
+Execution time: 132.29553413391113
+Accuracy: 88.36%
+
+Average validation loss: 1.3699  Accuracy: 3154/ 5000 (63.08%)
+
+models/cifar10-gat/train-CIFAR10-11-acc64.0999984741211
+
+Test loss: 1.1075  Accuracy: 6425/10000 (64.25%)  Precision: 0.64  Recall: 0.64
+
+Confusion matrix:
+ [[700  26  49  21  27  11  15  12  88  51]
+ [ 26 740  13  15   4   9   4   7  28 154]
+ [ 78   9 501  58 125  75  76  52  11  15]
+ [ 25  10  69 414  74 241  84  36  15  32]
+ [ 24   4  86  50 602  50  60 103  14   7]
+ [ 13   5  44 142  68 617  38  56   6  11]
+ [  8   8  49  56  70  61 712   6   8  22]
+ [ 26   6  25  31  60  85  10 719   7  31]
+ [ 82  65  10  13  24  14   4   5 737  46]
+ [ 31 147  10  22   8  15  13  35  36 683]]
+Execution time: 5248.19 seconds
