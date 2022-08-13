@@ -23,15 +23,32 @@ Transformer implemented with graph neural network attention layer from Pytorch G
 
 <div align="center">
   <img src="images/mnist-train-loss.png">
-  <p align="center">Illustration - MNIST train loss for Classic ViT and out Grpah Transformer.</p>
+  <p align="center">Illustration - MNIST train loss for Classic ViT and out Graph Transformer.</p>
 </div>
 
 <div align="center">
   <img src="images/mnist-train-acc.png">
-  <p align="center">Illustration - MNIST train accuracy for Classic ViT and out Grpah Transformer.</p>
+  <p align="center">Illustration - MNIST train accuracy for Classic ViT and out Graph Transformer.</p>
 </div>
 
 <div align="center">
   <img src="images/mnist-val-acc.png">
-  <p align="center">Illustration - MNIST validation accuracy for Classic ViT and out Grpah Transformer.</p>
+  <p align="center">Illustration - MNIST validation accuracy for Classic ViT and out Graph Transformer.</p>
+</div>
+
+## Results CIFAR10
+
+<div align="center">
+  <img src="images/cifar10-train-loss.png">
+  <p align="center">Illustration - CIFAR10 train loss for Classic ViT and out Graph Transformer.</p>
+</div>
+
+<div align="center">
+  <img src="images/cifar10-train-acc.png">
+  <p align="center">Illustration - CIFAR10 train accuracy for Classic ViT and out Graph Transformer.</p>
+</div>
+
+<div align="center">
+  <img src="images/cifar10-val-acc.png">
+  <p align="center">Illustration - CIFAR10 validation accuracy for Classic ViT and out Graph Transformer.</p>
 </div>
