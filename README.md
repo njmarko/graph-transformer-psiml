@@ -19,4 +19,19 @@ Transformer implemented with graph neural network attention layer from Pytorch G
   <p align="center">Illustration - Transformer with graph attention network (DALLE-2).</p>
 </div>
 
+## Results MNIST
 
+<div align="center">
+  <img src="images/mnist-train-loss.png">
+  <p align="center">Illustration - MNIST train loss for Classic ViT and out Grpah Transformer.</p>
+</div>
+
+<div align="center">
+  <img src="images/mnist-train-acc.png">
+  <p align="center">Illustration - MNIST train accuracy for Classic ViT and out Grpah Transformer.</p>
+</div>
+
+<div align="center">
+  <img src="images/mnist-val-acc.png">
+  <p align="center">Illustration - MNIST validation accuracy for Classic ViT and out Grpah Transformer.</p>
+</div>
