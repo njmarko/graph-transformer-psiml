@@ -1,3 +1,7 @@
+# Authors:
+# - Marina Debogović
+# - Marko Njegomir
+
 import wandb
 import time
 from torch import optim
